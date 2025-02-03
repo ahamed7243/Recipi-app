@@ -4,6 +4,7 @@ const nomeal = document.querySelector(".nomeal");
 
 
 function fetchMeal(){
+    // console.log(searchMeal.value)
 
     if(searchMeal.value){
         let URL = `https:/themealdb.com/api/json/v1/1/search.php?s=${searchMeal.value}`;
